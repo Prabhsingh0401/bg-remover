@@ -1,0 +1,7 @@
+# Tested with rembg 2.0.86, onnxruntime 1.31.0, pillow 13.0.0 (Python 3.14).
+# Left unpinned so the same file installs on the server's Python (e.g. Ubuntu 22.04 ships 3.10).
+rembg[cpu]>=2.0.60
+pillow
+fastapi
+uvicorn
+python-multipart
